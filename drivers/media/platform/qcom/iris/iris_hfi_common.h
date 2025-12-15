@@ -141,9 +141,6 @@ struct hfi_subscription_params {
 	u32	profile;
 	u32	level;
 	u32	tier;
-	u32	drap;
-	u32	film_grain;
-	u32	super_block;
 };
 
 u32 iris_hfi_get_v4l2_color_primaries(u32 hfi_primaries);
